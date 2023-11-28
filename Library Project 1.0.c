@@ -24,7 +24,6 @@ typedef struct prestamos_devoluciones
 {
     struct libro *libro_prestado; // puntero al libro prestado
     struct usuarios *usuario;     // puntero al usuario que tiene el libro prestado
-    time_t fecha_prestamo;        // fecha de prestamo (puede ser un timestamp)
-    time_t fecha_devolucion;      // fecha de devolucion (puede ser un timestamp)
-
+    time_t fecha_prestamo;        
+    time_t fecha_devolucion;      
 } prestamos_devoluciones;
